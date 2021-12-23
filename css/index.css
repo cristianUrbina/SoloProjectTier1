@@ -50,13 +50,18 @@ main {
   margin-top: 78px;
 }
 
+#section1 {
+  height: 535px;
+  overflow: hidden;
+}
+
 header .background-image {
-  margin: -4px -4px;
+  margin: -5px -5px;
   color: white;
   background-image: url("../images/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg");
   filter: blur(3px);
   /*-webkit-filter: blur(3px);*/
-  height: 540px;
+  height: 545px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
