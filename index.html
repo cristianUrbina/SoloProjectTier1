@@ -3,29 +3,67 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="stylesheet" href="./css/index.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<link
+			rel="stylesheet"
+			href="./css/index.css"
+			type="text/css"
+			media="screen"
+			title="no title"
+			charset="utf-8"
+		/>
+		<!--<link rel="preconnect" href="https://fonts.googleapis.com" />-->
+		<!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />-->
+		<!--<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />-->
 		<title>Conquer</title>
 	</head>
 	<body>
-		<header>
-			<nav>
-				<ul>
-					<li><a href="#homepage">homepage</a></li>
-					<li><a href="#aboutus">about us</a></li>
-					<li><a href="#services">services</a></li>
-					<li><a href="#contact">contact</a></li>
-					<li><a href="#external">external</a></li>
-				</ul>
-			</nav>
-		</header>
+		<nav>
+			<ul class="nav-list">
+				<li class="nav-item"><a href="#section1">homepage</a></li>
+				<li class="nav-item"><a href="#section2">about us</a></li>
+				<li class="nav-item"><a href="#section3">services</a></li>
+				<li class="nav-item"><a href="#section4">contact</a></li>
+				<li class="nav-item"><a href="#external">external</a></li>
+			</ul>
+		</nav>
 		<main>
-			<section id="homepage">
- 				Conquer
-			</section>
-			<section id="aboutus">2</section>
-			<section id="services">3</section>
-			<section id="contact">4</section>
+			<div id="section1">
+				<section>
+					<header>
+						<div class="background-image"></div>
+						<div class="container">
+							<div class="header-title">Conquer</div>
+							<div class="header-description">Simple bootstrap template</div>
+						</div>
+					</header>
+				</section>
+			</div>	
+			<div id="section2">
+				<section>
+					<div class="card-container">
+						<div class="card-container-row 3-column">
+							<!-- card begins here -->
+							<div class="card">
+								<div class="card-cover">image here</div>
+								<div class="card-text">text here</div>
+								<div class="card-button button-green">button here</div>
+							</div>
+							<!-- card ends here -->
+						</div>
+						<div class="card-container-row 2-column">Some card here</div>
+					</div>
+				</section>
+			</div>
+			<div id="section3">
+				<section id="services">3</section>
+			</div>
+			<div id="section4">
+				<section id="contact">4</section>
+			</div>
 		</main>
-		<footer>footer content</footer>
+		<footer>
+			<p class="developer-name">Cristian Omar Urbina Herrera</p>
+			<p class="developer-email">urbina1509@gmail.com</p>
+		</footer>
 	</body>
 </html>
