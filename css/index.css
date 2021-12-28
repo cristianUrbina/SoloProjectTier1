@@ -5,6 +5,11 @@
   --green-color: rgb(23, 138, 39);
   --blue-color: rgb(22,134,193);
   --red-color: rgb(133,36,6);
+  --gray-color:rgb(102,102,102);
+}
+
+a {
+  text-decoration: none;
 }
 
 nav {
@@ -96,17 +101,32 @@ header .container .header-description {
   margin: 60px auto;
 }
 
-.card-grid .card-grid-row.columns-3 {
+.card-grid .card-grid-row {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 60px;
 }
 
 .card {
   margin: 0 15px;
   min-height: 450px;
-  /*min-width: 250px;*/
-  flex: 1 30%;
   background-color: rgb(242, 242, 242);
+}
+
+.columns-1 .card {
+  flex: 1 100%;
+}
+
+.columns-2 .card {
+  flex: 1 35%;
+}
+
+.columns-3 .card {
+  flex: 1 30%;
+}
+
+.columns-4 .card {
+  flex: 1 20%;
 }
 
 .card-cover {
@@ -124,6 +144,10 @@ header .container .header-description {
   margin: 20px 20px;
 }
 
+.card-text h2 {
+  font-size: 1.3rem;
+}
+
 .card-text p {
   font-weight: lighter;
   font-size: 0.9rem;
@@ -132,8 +156,7 @@ header .container .header-description {
 
 .card-button {
   display: block;
-  width: 30%;
-  margin: auto;
+  width: fit-content;
   padding: 10px 30px;
   text-align: center;
   text-decoration: none;
@@ -142,8 +165,28 @@ header .container .header-description {
   font-size: 1.1rem;
 }
 
+.center-aligned {
+  margin: auto;
+}
+
+.right-aligned {
+  margin-left: 60%;
+}
+
+.centered-text {
+  text-align: center;
+}
+
 .green-title {
   color: var(--green-color);
+}
+
+.blue-title {
+  color: var(--blue-color);
+}
+
+.gray-title {
+  color: var(--gray-color);
 }
 
 .green-button {
@@ -156,4 +199,11 @@ header .container .header-description {
 
 .red-button {
   background-color: var(--red-color);
+}
+
+.white-button {
+  color: var(--gray-color);
+  background-color: white;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 10px;
 }
