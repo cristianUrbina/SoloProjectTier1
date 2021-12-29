@@ -3,9 +3,9 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
   --green-color: rgb(23, 138, 39);
-  --blue-color: rgb(22,134,193);
-  --red-color: rgb(133,36,6);
-  --gray-color:rgb(102,102,102);
+  --blue-color: rgb(22, 134, 193);
+  --red-color: rgb(133, 36, 6);
+  --gray-color: rgb(102, 102, 102);
 }
 
 a {
@@ -108,6 +108,7 @@ header .container .header-description {
 }
 
 .card {
+  position: relative;
   margin: 0 15px;
   min-height: 450px;
   background-color: rgb(242, 242, 242);
@@ -163,14 +164,17 @@ header .container .header-description {
   border-radius: 5px;
   color: white;
   font-size: 1.1rem;
+  position: absolute;
+  bottom: 30px;
 }
 
 .center-aligned {
-  margin: auto;
+  left: 50%;
+  margin-left: -20%;
 }
 
 .right-aligned {
-  margin-left: 60%;
+  right: 20%;
 }
 
 .centered-text {
@@ -224,7 +228,7 @@ header .container .header-description {
 
 #services-header .container {
   position: absolute;
-  top: 2075px;
+  top: 2015px;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -242,5 +246,3 @@ header .container .header-description {
   font-size: 1.1rem;
   line-height: 1.9rem;
 }
-
-
