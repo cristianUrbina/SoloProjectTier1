@@ -207,3 +207,40 @@ header .container .header-description {
   border: 1px solid rgb(204, 204, 204);
   border-radius: 10px;
 }
+
+/* Section3 */
+
+#services-header .background-image {
+  /*margin: -5px -5px;*/
+  color: white;
+  background-image: url("../images/alex-trail-altrafpv-cMCVM48SYAE-unsplash.jpg");
+  /*filter: blur(3px);*/
+  /*-webkit-filter: blur(3px);*/
+  height: 326px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#services-header .container {
+  position: absolute;
+  top: 2075px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  width: 45%;
+}
+
+#services-header .container .header-title {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  margin: 20px;
+}
+
+#services-header .container .header-description {
+  font-size: 1.1rem;
+  line-height: 1.9rem;
+}
+
+
