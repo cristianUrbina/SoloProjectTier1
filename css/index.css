@@ -177,6 +177,10 @@ header .container .header-description {
   right: 20%;
 }
 
+.left-aligned {
+  left: 20px;
+}
+
 .centered-text {
   text-align: center;
 }
@@ -245,4 +249,20 @@ header .container .header-description {
 #services-header .container .header-description {
   font-size: 1.1rem;
   line-height: 1.9rem;
+}
+
+#services .card {
+  min-height: 500px;
+}
+
+#services .card .card-cover {
+  height: 260px;
+}
+
+#services .columns-1 .card {
+  height: 786px;
+}
+
+#services .columns-1 .card .card-cover {
+  height: 60%;
 }
