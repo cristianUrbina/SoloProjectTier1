@@ -266,3 +266,110 @@ header .container .header-description {
 #services .columns-1 .card .card-cover {
   height: 60%;
 }
+
+/* Section 4 */
+
+#contact .background-image {
+  margin: -5px -5px;
+  /*color: white;*/
+  background-image: url("../images/eslam-tawakol-yGMD8-Ek6OI-unsplash.jpg");
+  background-color: pink;
+  filter: blur(2px);
+  /*-webkit-filter: blur(3px);*/
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contact .container {
+  width: 720px;
+  position: absolute;
+  top: 3950px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contact-form .text,
+.contact-form input,
+.contact-form textarea {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 0px solid white;
+  border-radius: 4px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0 15px;
+  margin-bottom: 15px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+.contact-form .title {
+  color: white;
+  font-size: 2.5rem;
+  margin: 30px 0;
+}
+
+.contact-form .text {
+  padding: 20px 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 1.7rem;
+  border-radius: 5px;
+}
+.contact-form input {
+  height: 34px;
+}
+
+.contact-form button[type="submit"] {
+  position: absolute;
+  color: white;
+  background-color: rgb(38, 38, 40);
+  border: 1px solid rgb(170, 170, 170);
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.contact-form textarea {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.columns2-row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.rows3-column {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1 40%;
+  margin-right: 10px;
+}
+
+.columns2-row textarea {
+  flex: 1 40%;
+  margin-left: 10px;
+}
+
+/* footer */
+footer {
+  margin: 50px auto;
+  text-align: center;
+}
+
+footer p {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.8);
+}
