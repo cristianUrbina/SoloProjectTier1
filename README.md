@@ -3,7 +3,7 @@
 ## Overview 
 This template was created for Chingu SoloProject. It is a conquer bootstrap template.
 
-**LIVE LINK**: [https://cristianurbina.github.io/SoloProjectTier1/]https://cristianurbina.github.io/SoloProjectTier1/
+**LIVE LINK**: [https://cristianurbina.github.io/SoloProjectTier1/](https://cristianurbina.github.io/SoloProjectTier1/)
 
 ## Features
 - It displays a navigation header.
@@ -16,8 +16,8 @@ This template was created for Chingu SoloProject. It is a conquer bootstrap temp
 - Background images use parallax effect.
 
 # Running the project
-`cd projectDirectory/`
+- `cd projectDirectory/`
 Inside the project directory you will find a file called index.html, just open it.
 
 # Dependencies
-It relies on jQuery but is included locally so, there is no need to install anything.
+It relies on jQuery but is included locally so there is no need to install anything.
