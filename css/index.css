@@ -132,7 +132,6 @@ header .container .header-description {
 
 .card-cover {
   height: 40%;
-  background-color: yellow;
 }
 .card-cover img {
   height: 100%;
@@ -271,9 +270,7 @@ header .container .header-description {
 
 #contact .background-image {
   margin: -5px -5px;
-  /*color: white;*/
   background-image: url("../images/eslam-tawakol-yGMD8-Ek6OI-unsplash.jpg");
-  background-color: pink;
   filter: blur(2px);
   /*-webkit-filter: blur(3px);*/
   height: 600px;
