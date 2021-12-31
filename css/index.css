@@ -8,6 +8,10 @@
   --gray-color: rgb(102, 102, 102);
 }
 
+body {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -68,7 +72,6 @@ header .background-image {
   color: white;
   background-image: url("../images/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg");
   filter: blur(3px);
-  /*-webkit-filter: blur(3px);*/
   height: 545px;
   background-position: center;
   background-repeat: no-repeat;
@@ -93,7 +96,6 @@ header .container .header-title {
 header .container .header-description {
   text-transform: capitalize;
   font-size: 1.5em;
-  /*font-weight: 100;*/
 }
 
 .card-grid {
